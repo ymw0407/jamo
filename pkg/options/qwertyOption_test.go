@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ymw0407/golang-jamo/pkg/jamo"
-	"github.com/ymw0407/golang-jamo/pkg/options"
+	"github.com/ymw0407/jamo/pkg/jamo"
+	"github.com/ymw0407/jamo/pkg/options"
 )
 
 func TestQwertyOption(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/ymw0407/golang-jamo
+module github.com/ymw0407/jamo
 
 go 1.21.6
 

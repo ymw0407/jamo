@@ -19,7 +19,7 @@ package options
 import (
 	"slices"
 
-	"github.com/ymw0407/golang-jamo/internal/data"
+	"github.com/ymw0407/jamo/internal/data"
 )
 
 // option for decompose tense constants(된소리 자음, ㄲㄸㅃㅆㅉ), complex consonants(복합 자음, ㄳㄵㄶㄺㄻㄼㄽㄾㄿㅀㅄ), dipthongs(이중 모음, ㅐㅔㅘㅙㅚㅝㅞㅢ)

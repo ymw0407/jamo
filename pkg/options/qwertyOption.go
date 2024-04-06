@@ -19,7 +19,7 @@ package options
 import (
 	"slices"
 
-	"github.com/ymw0407/golang-jamo/internal/data"
+	"github.com/ymw0407/jamo/internal/data"
 )
 
 // option for decompose Qwerty Keyboard form

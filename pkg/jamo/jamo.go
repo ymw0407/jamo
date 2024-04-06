@@ -17,8 +17,8 @@ limitations under the License.
 package jamo
 
 import (
-	"github.com/ymw0407/golang-jamo/internal/data"
-	"github.com/ymw0407/golang-jamo/pkg/options"
+	"github.com/ymw0407/jamo/internal/data"
+	"github.com/ymw0407/jamo/pkg/options"
 )
 
 // Decompose Hangeul words into Syllables

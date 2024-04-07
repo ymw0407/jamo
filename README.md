@@ -10,6 +10,7 @@ Hangeul character syllable decomposing/composing Go library
 <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/stars/ymw0407/jamo" alt="your repo's stars" /></a>
 <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/forks/ymw0407/jamo" alt="your repo's forks" /></a>
 <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/watchers/ymw0407/jamo" alt="your repo's watchers" /></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fymw0407%2Fjamo?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fymw0407%2Fjamo.svg?type=shield"/></a>
 
 ## Description
 
@@ -82,3 +83,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 jamo is released under Apache License 2.0.
 See the [LICENSE file]("./LICENSE") for details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fymw0407%2Fjamo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fymw0407%2Fjamo?ref=badge_large)

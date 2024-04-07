@@ -24,6 +24,15 @@ import (
 	"github.com/ymw0407/jamo/pkg/options"
 )
 
+// classify hangeul's syllable into consonant, vowel and undefined
+type SyllableType int
+
+const (
+	Undefined SyllableType = iota
+	Consonant
+	Vowel
+)
+
 // Decompose Hangeul words into Syllables
 /*
 	// example
@@ -65,12 +74,12 @@ func DecomposeHangeul(hangeuls string, opts ...options.Options) (decomposedHange
 	return decomposedHangeul
 }
 
-// Compose Syllables into hangeul word(not words) //
+// Compose Syllables into hangeul word(not words)
 /*
 	// example
-	fmt.Println(DecomposeHangeul("한글 is hangeul!")) // "ㅎㅏㄴㄱㅡㄹ is hangeul!"
+	fmt.Println(ComposeHangeul("ㅎㅏㄴㄱㅡㄹ")) // "한글"
 */
-//* TODO: Allow to apply serveral option (now only first option can apply)
+//* TODO: Flexible to better suit user intent
 func ComposeHangeul(syllables string) (composedHangeuls []string, err error) {
 	sungType := data.ChosungType
 	composedHangeuls = append(composedHangeuls, "")
@@ -201,14 +210,20 @@ func ComposeHangeul(syllables string) (composedHangeuls []string, err error) {
 	return composedHangeuls, err
 }
 
-func ClassifySyllables(syllable rune) data.SyllableType {
+// Classify Syllables into hangeul's consonant, vowel and undefined
+/*
+	// example
+	fmt.Println(ClassifySyllables("ㅎ")) // jamo.Consonant
+*/
+//* TODO: Flexible to better suit user intent
+func ClassifySyllables(syllable rune) SyllableType {
 	switch {
 	case slices.Contains(data.Consonants, syllable):
-		return data.Consonant
+		return Consonant
 	case slices.Contains(data.JungSung, syllable):
-		return data.Vowel
+		return Vowel
 	default:
-		return data.Undefined
+		return Undefined
 	}
 }
 

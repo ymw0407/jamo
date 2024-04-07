@@ -16,14 +16,6 @@ limitations under the License.
 
 package data
 
-type SyllableType int
-
-const (
-	Undefined SyllableType = iota
-	Consonant
-	Vowel
-)
-
 type SungType int
 
 const (

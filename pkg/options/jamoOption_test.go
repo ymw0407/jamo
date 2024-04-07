@@ -28,7 +28,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(all false)", func(t *testing.T) {
 		expected := "ㄲㅞㄳㅌㅔㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(false).SetTenseConsonants(false).SetDiphthong(false)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -36,7 +36,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(complex consonants)", func(t *testing.T) {
 		expected := "ㄲㅞㄱㅅㅌㅔㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(true).SetTenseConsonants(false).SetDiphthong(false)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -44,7 +44,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(tense consonants)", func(t *testing.T) {
 		expected := "ㄱㄱㅞㄳㅌㅔㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(false).SetTenseConsonants(true).SetDiphthong(false)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -52,7 +52,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(diphthong)", func(t *testing.T) {
 		expected := "ㄲㅜㅓㅣㄳㅌㅓㅣㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(false).SetTenseConsonants(false).SetDiphthong(true)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -60,7 +60,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(complex consonants, tense consonants)", func(t *testing.T) {
 		expected := "ㄱㄱㅞㄱㅅㅌㅔㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(true).SetTenseConsonants(true).SetDiphthong(false)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -68,7 +68,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(complex consonants, tense consonants)", func(t *testing.T) {
 		expected := "ㄱㄱㅞㄱㅅㅌㅔㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(true).SetTenseConsonants(true).SetDiphthong(false)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -76,7 +76,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(complex consonants, diphthong)", func(t *testing.T) {
 		expected := "ㄲㅜㅓㅣㄱㅅㅌㅓㅣㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(true).SetTenseConsonants(false).SetDiphthong(true)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -84,7 +84,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(tense consonants, diphthong)", func(t *testing.T) {
 		expected := "ㄱㄱㅜㅓㅣㄳㅌㅓㅣㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(false).SetTenseConsonants(true).SetDiphthong(true)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})
@@ -92,7 +92,7 @@ func TestJamoOption(t *testing.T) {
 	t.Run("꿳테스트 with jamo options(complex consonants, tense consonants, diphthong)", func(t *testing.T) {
 		expected := "ㄱㄱㅜㅓㅣㄱㅅㅌㅓㅣㅅㅡㅌㅡ"
 		opts := options.Jamo().SetComplexConsonants(true).SetTenseConsonants(true).SetDiphthong(true)
-		res := jamo.DecomposeHangeul("꿳테스트", *opts)
+		res := jamo.DecomposeHangeul("꿳테스트", opts)
 
 		assert.Equal(t, expected, res, res+" : `"+expected+"` is expected!")
 	})

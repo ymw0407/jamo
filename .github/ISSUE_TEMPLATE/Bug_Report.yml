@@ -23,6 +23,7 @@ body:
   - type: textarea
     attributes:
       label: How often does it reproduce? Is there a required condition?
+      description: If possible please provide textual output instead of screenshots.
   - type: textarea
     attributes:
       label: What is the expected behavior? Why is that the expected behavior?

@@ -14,7 +14,7 @@ Hangeul character syllable decomposing/composing Go library
 ## Description
 
 Golang-jamo is a Go Hangeul syllable decomposition/composition library for working with Hangul characters and jamo. <br><br>
-This library support Hangeul syllable decomposition with several options. (e.g. Detailed Jamo decomposition, Qwerty keyboard layout decomposition) <br><br>
+This library support Hangeul syllable decomposition with several options. (e.g. Detailed Jamo decomposition, Qwerty keyboard layout decomposition) <br>
 
 ## Installation
 

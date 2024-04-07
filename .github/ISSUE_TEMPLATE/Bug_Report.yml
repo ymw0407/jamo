@@ -2,8 +2,8 @@
 name: ":bug: Bug Report"
 description: "Report a Bug"
 title: ":bug: [Bug] - "
-labels: []
-assignees: []
+labels: ["bug"]
+assignees: ["ymw0407"]
 
 body:
   - type: markdown
@@ -11,24 +11,11 @@ body:
       value: |
         Thank you for reporting an issue.
 
-        This issue tracker is for bugs and issues found within Node.js core.
-        If you require more general support please file an issue on our help repo. https://github.com/nodejs/help
-
         Please fill in as much of the following form as you're able.
   - type: input
     attributes:
       label: Version
-      description: Output of `node -v`
-  - type: input
-    attributes:
-      label: Platform
-      description: |
-        UNIX: output of `uname -a`
-        Windows: output of `"$([Environment]::OSVersion.VersionString) $(('x86', 'x64')[[Environment]::Is64BitOperatingSystem])"` in PowerShell console
-  - type: input
-    attributes:
-      label: Subsystem
-      description: If known, please specify affected core module name
+      description: Version of `github.com/ymw0407/jamo`
   - type: textarea
     attributes:
       label: What steps will reproduce the bug?

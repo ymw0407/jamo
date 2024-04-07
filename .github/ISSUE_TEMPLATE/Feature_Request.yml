@@ -2,8 +2,8 @@
 name: ":rocket: Feature Request"
 description: "Request a new feature"
 title: ":rocket: [Feature Request] - "
-labels: []
-assignees: []
+labels: ["bug"]
+assignees: ["ymw0407"]
 
 body:
   - type: textarea
@@ -20,7 +20,7 @@ body:
       label: "Reasons"
       description: Explain why this function is necessary.
     validations:
-        required: true
+      required: true
 
   - type: textarea
     id: how-to

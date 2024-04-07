@@ -1,0 +1,40 @@
+---
+name: "🐛 Bug Report"
+description: "Report a Bug"
+title: "🐛 [Bug] - "
+labels: ["bug"]
+assignees: ["ymw0407"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue.
+
+        Please fill in as much of the following form as you're able.
+  - type: input
+    attributes:
+      label: Version
+      description: Version of `github.com/ymw0407/jamo`
+  - type: textarea
+    attributes:
+      label: What steps will reproduce the bug?
+      description: Enter details about your bug, preferably a simple code snippet that can be run using `node` directly without installing third-party dependencies.
+  - type: textarea
+    attributes:
+      label: How often does it reproduce? Is there a required condition?
+      description: If possible please provide textual output instead of screenshots.
+  - type: textarea
+    attributes:
+      label: What is the expected behavior? Why is that the expected behavior?
+      description: If possible please provide textual output instead of screenshots.
+  - type: textarea
+    attributes:
+      label: What do you see instead?
+      description: If possible please provide textual output instead of screenshots.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Tell us anything else you think we should know.

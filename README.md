@@ -4,15 +4,15 @@ Hangeul character syllable decomposing/composing Go library
 
 <a href="/LICENSE"><img src="https://img.shields.io/github/license/ymw0407/jamo" alt="License" /></a>
 <a href="https://github.com/ymw0407/jamo/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors-anon/ymw0407/jamo" alt="contributors" /></a>
-<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/last-commit/ymw0407/jamo" alt="ymw0407/jamo repository's last-commit" /></a>
-<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/issues/ymw0407/jamo" alt="ymw0407/jamo repository's issues" /></a>
+<a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/last-commit/ymw0407/jamo" alt="ymw0407/jamo repository's last-commit" /></a>
+<a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/issues/ymw0407/jamo" alt="ymw0407/jamo repository's issues" /></a>
 <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fymw0407%2Fjamo?ref=badge_shield&issueType=license" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fymw0407%2Fjamo.svg?type=shield&issueType=license"/></a>
 <a href="https://codecov.io/gh/ymw0407/jamo" ><img src="https://codecov.io/gh/ymw0407/jamo/graph/badge.svg?token=1PM1ZYQOMA"/></a>
 <a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/v/release/ymw0407/jamo?logo=github" alt="github release" /></a>
 <a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/release-date/ymw0407/jamo?color=blue&logo=github" alt="github last release date" /></a>
-<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/stars/ymw0407/jamo" alt="ymw0407/jamo repository's stars" /></a>
-<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/forks/ymw0407/jamo" alt="ymw0407/jamo repository's forks" /></a>
-<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/watchers/ymw0407/jamo" alt="ymw0407/jamo repository's watchers" /></a>
+<a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/stars/ymw0407/jamo" alt="ymw0407/jamo repository's stars" /></a>
+<a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/forks/ymw0407/jamo" alt="ymw0407/jamo repository's forks" /></a>
+<a href="https://github.com/ymw0407/jamo"><img src="https://img.shields.io/github/watchers/ymw0407/jamo" alt="ymw0407/jamo repository's watchers" /></a>
 
 ## Description
 

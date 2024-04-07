@@ -1,18 +1,18 @@
 # golang-jamo
 
-
 Hangeul character syllable decomposing/composing Go library
 
-  <a href="/LICENSE"><img src="https://img.shields.io/github/license/ymw0407/jamo" alt="License" /></a>
-  <a href="https://github.com/ymw0407/jamo/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors-anon/ymw0407/jamo" alt="contributors" /></a>
-  <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/last-commit/ymw0407/jamo" alt="your repo's last-commit" /></a>
-  <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/issues/ymw0407/jamo" alt="your repo's issues" /></a>
-  <a href="https://codecov.io/gh/ymw0407/jamo" ><img src="https://codecov.io/gh/ymw0407/jamo/graph/badge.svg?token=1PM1ZYQOMA"/></a>
-  <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/stars/ymw0407/jamo" alt="your repo's stars" /></a>
-  <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/forks/ymw0407/jamo" alt="your repo's forks" /></a>
-  <a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/watchers/ymw0407/jamo" alt="your repo's watchers" /></a>
+<a href="/LICENSE"><img src="https://img.shields.io/github/license/ymw0407/jamo" alt="License" /></a>
+<a href="https://github.com/ymw0407/jamo/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors-anon/ymw0407/jamo" alt="contributors" /></a>
+<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/last-commit/ymw0407/jamo" alt="your repo's last-commit" /></a>
+<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/issues/ymw0407/jamo" alt="your repo's issues" /></a>
+<a href="https://codecov.io/gh/ymw0407/jamo" ><img src="https://codecov.io/gh/ymw0407/jamo/graph/badge.svg?token=1PM1ZYQOMA"/></a>
+<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/stars/ymw0407/jamo" alt="your repo's stars" /></a>
+<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/forks/ymw0407/jamo" alt="your repo's forks" /></a>
+<a href="https://github/ymw0407/jamo"><img src="https://img.shields.io/github/watchers/ymw0407/jamo" alt="your repo's watchers" /></a>
 
 ## Description
+
 Golang-jamo is a Go Hangeul syllable decomposition/composition library for working with Hangul characters and jamo. <br><br>
 This library support Hangeul syllable decomposition with several options. (e.g. Detailed Jamo decomposition, Qwerty keyboard layout decomposition) <br><br>
 
@@ -69,6 +69,14 @@ func main() {
 	) // ["긁기", "글끼"], nil
 }
 ```
+
+## Contributers
+
+<a href="https://github.com/ymw0407/jamo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ymw0407/jamo" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## License
 

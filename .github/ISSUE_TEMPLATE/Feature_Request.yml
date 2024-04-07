@@ -1,8 +1,8 @@
 ---
-name: ":rocket: Feature Request"
+name: "🚀 Feature Request"
 description: "Request a new feature"
-title: ":rocket: [Feature Request] - "
-labels: ["bug"]
+title: "🚀 [Feature Request] - "
+labels: ["enhancement"]
 assignees: ["ymw0407"]
 
 body:

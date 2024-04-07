@@ -1,7 +1,7 @@
 ---
-name: ":bug: Bug Report"
+name: "🐛 Bug Report"
 description: "Report a Bug"
-title: ":bug: [Bug] - "
+title: "🐛 [Bug] - "
 labels: ["bug"]
 assignees: ["ymw0407"]
 
